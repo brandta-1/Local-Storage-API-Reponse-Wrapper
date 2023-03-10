@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locally Stored API</title>
+</head>
+
+<body>
+    <h1>This script assumes that your API url is valid and will return data, it does not work if that is not the case
+    </h1>
+    <ol>
+        <li>Place a working API Request URL in lines 16 and 21 of script.js</li>
+        <li>Refresh the Page (manually or thru live server)</li>
+        <li>Check the Application, Console, and Network tabs, you should see network calls to your APIs, and the objects
+            you need to access should be console logged</li>
+        <li>Refresh the Page (manually or thru live server)</li>
+        <li>Check the Application, Console, and Network tabs, you should NOT see network calls to your API, and the
+            objects you need to access should be console logged</li>
+    </ol>
+    <h2>You are now free to manipulate and test your API response inside the main wrapper, you will never call the APIs
+        again as long as local storage is not cleared</h2>
+</body>
+
+<script src='./script.js'></script>
+
+</html>
